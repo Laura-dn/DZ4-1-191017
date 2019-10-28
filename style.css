@@ -1,0 +1,14 @@
+div {
+    width: 50%;
+    margin: 0 auto;/*Выравниваем по центру*/
+    font-family: Arial;/*Меняем шрифт*/
+}
+
+li {list-style-type: none;/*убираем стандартную номерацию*/}
+
+.cold {list-style-image: url(winter_16.png);}
+.spring {list-style-image: url(spring_16.png);}
+.summer {list-style-image: url(summer_16.png);}
+.autumn {list-style-image: url(autumn_16.png);}
+
+.cold, .spring, .summer, .autumn {margin-left: 20px;}
